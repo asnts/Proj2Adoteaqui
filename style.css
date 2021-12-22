@@ -123,26 +123,79 @@ form select{
     display: flex;
     justify-content: space-evenly;
     height: 500px;
-    background: #FFFFFF url(./imagens/Design\ sem\ nome.png) no-repeat right top fixed;
-
+    background: #FFFFFF url(./imagens/Design\ sem\ nome.png);
+  
  }
 
 
 footer{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-items: center;
     background-image: linear-gradient(10deg, #b35860,   #A62D37);
     width: 100%;
     height: 70px;
     position:relative;
     bottom:0;
     left:0;
-    display: flex;
-     text-align: center;
-    padding-left: 450px;
+    text-align: center;
+   
 
 }
+.rodape{
+    align-items: center;
+    
+}
 
+@media (max-width: 900px) {
+
+    .adoteaqui {
+        display: none;
+
+    }
+
+    .containerhead{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .containerconteudo{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        
+
+    }
+    .containerimagens{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    footer{
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+       
+   }
+   .rodape{
+       font-size: 10px;
+       /* width: 100%;
+       height: auto; */
+       /* padding-right: 13px;
+       flex-direction: row;
+       text-align: center;
+       justify-items: center;
+       align-items: center; */
+
+
+       
+    }
+
+}
 
 @media (max-width: 700px) {
 
@@ -170,13 +223,12 @@ footer{
         height: auto;
         align-items: center;
     }
-   .footer{
+    footer{
     width: 100%;
     height: auto;
     padding: auto;
     flex-direction: row;
-    
-   
+       
    }
    .rodape{
        font-size: 10px;
@@ -193,3 +245,4 @@ footer{
     }
 
 }
+
