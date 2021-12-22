@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.containerhead{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(10deg, #b35860, #b35860 , #A62D37);
+
+}
+
+.adoteaqui{
+
+    display: flex;
+    color: black;
+    height: 200px;
+    width: 500px;
+    flex-grow: 2;
+
+}
+
+.titulo{
+
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.containerhead .lista{
+width: 700px;
+font-size: 40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding-right: 15px;
+
+}
+
+.containerhead .lista ul{
+display: flex;
+justify-content: space-between;
+padding-top: 55px;
+}
+
+
+
+.containerhead .lista  ul li{
+ list-style-type: none;
+
+}
+
+
+.containerhead .lista ul li:hover{
+    color:#F2E1C2;
+    transition: 02s;
+
+}
+
+
+.containerconteudo{
+    height: 300px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF url(./imagens/Design\ sem\ nome.png) no-repeat right top fixed;
+    position:relative;
+
+}
+
+.texto{
+ padding-top: 15px;
+
+}
+
+.destaque {
+    color: #b35860;
+
+}
+.formulario{
+    text-align:justify;
+    width: 100%;
+    text-align: center;
+  padding-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+
+form select{
+    width: 80px;
+    border-radius:  5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-items: center;
+}
+
+.botao{
+    width: 150px;
+    height: 40px;
+    background-color: #b35860;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.botao:hover{
+   background-color:#F2E1C2;
+
+}
+
+.containerimagens{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    background: #FFFFFF url(./imagens/Design\ sem\ nome.png) no-repeat right top fixed;
+
+ }
+
+
+footer{
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(10deg, #b35860,   #A62D37);
+    width: 100%;
+    height: 70px;
+    position:relative;
+    bottom:0;
+    left:0;
+    display: flex;
+     text-align: center;
+    padding-left: 450px;
+
+}
+
+
+@media (max-width: 700px) {
+
+    .adoteaqui {
+        display: none
+
+    }
+
+    .containerhead{
+        width: 100%;
+        font-size: 20px;
+        
+    }
+
+    .containerconteudo{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        
+
+    }
+    .containerimagens{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+   .footer{
+    width: 100%;
+    height: auto;
+    padding: auto;
+    flex-direction: row;
+    
+   
+   }
+   .rodape{
+       font-size: 10px;
+       /* width: 100%;
+       height: auto; */
+       /* padding-right: 13px;
+       flex-direction: row;
+       text-align: center;
+       justify-items: center;
+       align-items: center; */
+
+
+       
+    }
+
+}
